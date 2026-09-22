@@ -1,0 +1,18 @@
+# 📦 Dependencies
+node_modules/
+
+# 🔑 Private Environment Secrets (Contains your database URIs and Gmail App passwords)
+.env
+.env.local
+.env.production
+
+# 🪵 Application Logs
+*.log
+logs/
+npm-debug.log*
+
+# 🖥️ System & Editor Files (Mac and Windows junk files)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
